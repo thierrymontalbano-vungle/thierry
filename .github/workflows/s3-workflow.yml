@@ -1,3 +1,6 @@
+name: GitHub Actions S3
+run-name: ${{ github.actor }} is testing out AWS assume role and S3 sync 🚀
+on: [push]
 jobs:
   deploy:
     name: Upload to Amazon S3
